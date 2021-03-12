@@ -21,6 +21,7 @@
 }
 #inicio{
     background-image: url(astronautas_0.jpg);
+    width: 1500px;
     height: 460px;
     color: whitesmoke;
     display: flex;
