@@ -85,6 +85,9 @@ p{
     text-align: left;
     padding: 1% 5%
 }
+#sobremim p{
+    padding: 5% 5%;
+}
 #sobremim div img{
     border-radius: 10%;
 }
