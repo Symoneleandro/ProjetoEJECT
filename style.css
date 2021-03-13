@@ -1,0 +1,152 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #8195A6,#586F8C,#353940);
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: rgb(245, 245, 245);
+    font-size: 35px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:#CBE6BE;
+}
+#menu ul{
+    background-image: linear-gradient(to bottom,#0d303d, black);
+    list-style: nome;
+    width: 100%;
+
+}
+#menu ul li{
+    display: inline;
+    width: 100%;
+}
+#menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu ul li a:hover{
+    color:#58A69E; 
+}
+#inicio{
+    height: 460px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(astronautas_0.jpg);
+    text-align: center;
+}
+#inicio div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nome{
+    background-image: linear-gradient(to right, #152749,#092246,#020708);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+#sobremim div{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(ceu\ estrelado.jpg);
+    border-radius: 2%;
+    padding: 30px 10px;
+    height: 550px;
+}
+#sobremim h2 {
+    text-align: left;
+    padding: 1% 5%
+}
+#sobremim div img{
+    border-radius: 10%;
+}
+#formação h2{
+    text-align: right;
+    padding: 1% 5%
+}
+#formação p{
+    background-image: url(ceu\ estrelado.jpg);
+    padding: 13% ;
+    border-radius: 2%;
+    height: 500px;
+}
+#objetivo h2{
+    text-align: left;
+    padding: 1% 5%
+}
+#objetivo p{
+    background-image: url(ceu\ estrelado.jpg);
+    padding: 13% ;
+    border-radius: 2%;
+    height: 500px;
+}
+#curiosidades h2{
+    text-align: right;
+    padding: 1% 5%
+}
+#curiosidades div {
+    background-image: url(ceu\ estrelado.jpg);
+    border-radius: 2%;
+    padding: 12% ;
+    height: 550px;
+}
+#curiosidades div nav{
+    padding: 12% ;
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+}
+#contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 2%;
+    border-radius: 40px;
+}
+footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 2%;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+
